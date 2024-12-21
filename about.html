@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Npj Jewellers</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Fonts awsome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <!-- style link -->
+  <link rel="stylesheet" href="src/assets/style/style.css">
+</head>
+
+<body>
+  <!-- Header Component -->
+  
+    <header class="bg-[#19383B] sticky top-0 z-50 relative py-4 mb-4">
+      <div>
+      <div class="container mx-auto px-4 flex items-center justify-between">
+
+        <!-- Logo -->
+        <div class="text-white text-[40px] font-serif italic">
+          Npj Jewellers
+        </div>
+
+        <!-- Navigation -->
+        <nav class="hidden md:block">
+          <ul class="flex space-x-8 menu">
+            <li>
+              <a href="index.html" class="text-white text-[20px]">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="text-white text-[20px]">About Us</a>
+            </li>
+            <li>
+              <a href="product.html" class="text-white text-[20px]">Products</a>
+            </li>
+            <li>
+              <a href="gallery.html" class="text-white text-[20px]">Gallery</a>
+            </li>
+            <li>
+              <a href="contact.html" class="text-white text-[20px]">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Phone Number -->
+        <a href="#"
+          class="hidden md:flex items-center bg-white text-[#19383B] text-[18px] px-4 py-2 rounded-full hover:bg-gray-100 transition-colors">
+          <i class="fa-solid fa-phone-volume w-4 h-4 mr-2"></i>
+          +91 123 456 7890
+        </a>
+
+        <!-- Hamburger Menu Button -->
+        <button id="menu-btn" class="md:hidden block text-white focus:outline-none">
+          <i class="fas fa-bars text-3xl"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Menu (Hidden by default) -->
+      <nav id="mobile-menu" class="hidden md:hidden bg-[#19383B]">
+        <ul class="flex flex-col items-center space-y-4 py-4">
+          <li>
+            <a href="index.html" class="text-white text-[20px]">Home</a>
+          </li>
+          <li>
+            <a href="about.html" class="text-white text-[20px]">About Us</a>
+          </li>
+          <li>
+            <a href="product.html" class="text-white text-[20px]">Products</a>
+          </li>
+          <li>
+            <a href="gallery.html" class="text-white text-[20px]">Gallery</a>
+          </li>
+          <li>
+            <a href="contact.html" class="text-white text-[20px]">Contact Us</a>
+          </li>
+          <li>
+            <a href="#" class="text-white text-[18px]">+91 123 456 7890</a>
+          </li>
+        </ul>
+      </nav>
+      
+    </header>
+  </div>
+  <div class="relative bg-[#19383B] mt-[-16px]">
+    <!-- Hero Section -->
+    <div class="container mx-auto px-4 py-20 text-center">
+      <h2 class="text-4xl md:text-5xl  text-white font-serif italic mb-6">About Us</h2>
+      <div class="flex items-center justify-center space-x-2 text-sm">
+        <a href="index.html"
+          class="hover:text-gray-300 transition-colors text-[20px] cursor-pointer text-white">Home</a>
+        <span class="text-[20px] text-white">›</span>
+        <span class="text-[20px] text-white">About Us</span>
+      </div>
+    </div>
+
+    <!-- Curved Bottom Edge -->
+    <div class="absolute bottom-0 left-0 right-0 text-white mx-0.5">
+      <svg viewBox="0 0 1440 120" class="w-full h-auto fill-white text-white" preserveAspectRatio="none">
+        <path d="M0,0 C480,120 960,120 1440,0 L1440,120 L0,120" />
+      </svg>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section class="my-[130px] relative">
+    <img src="src/assets/images/desion.png" alt="" class="absolute top-[20%] right-0 w-[
+      813.66px] h-[606.28px] ">
+    <div class="container mx-auto px-4">
+      <div class="row">
+        <h2
+          class="text-[#19383B] text-[60px] md:text-[80px] leading-[80px] md:leading-[120px] font-serif italic text-center">
+          About
+          <img src="src/assets/images/Vector 1.png" alt=""
+            class="inline-block me-1 absolute left-[53%] w-[140px] top-7">
+          us
+        </h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
+          <div class="relative">
+            <img src="src/assets/images/Rectangle 20.png" alt="" class="w-full max-w-[574.25px] h-auto inline-block">
+            <div class="absolute bottom-[-30px] right-0 z-0">
+              <img src="src/assets/images/Ellipse 6.png" alt="" class="inline-block">
+            </div>
+            <div class="absolute bottom-[-10px] right-5 z-10">
+              <img src="src/assets/images/Ellipse 7.png" alt="" class="inline-block">
+            </div>
+          </div>
+          <div class="flex flex-col justify-center">
+            <h2 class="text-[#19383B] text-[35px]    font-serif italic max-w-sm">Traditon Cared For
+              Since <span class="text-[#F4B069] text-[35px] inline-block">1999</span></h2>
+            <p
+              class="text-[#808080] text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 md:mt-8 max-w-lg text-lg font-semibold">
+              Lorem Ipsum is simply dummy text of the printing and typese industry. Lorem Ipsum has been
+              the industry's standard Lorem Ipsum is simply dummy text of the printin.</p>
+            <p
+              class="text-[#808080] text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 md:mt-8 max-w-lg text-lg font-semibold mb-6">
+              Lorem Ipsum is simply dummy text of the printing and typesett industry. Lorem Ipsum has been
+              the</p>
+            <div class="flex mt-4 md:mt-6 ">
+              <span class="text-[#19383B] text-[25px] md:text-[35px] font-semibold italic">learn
+                more</span>
+              <div class="relative flex ms-4 mt-2">
+                <img src="src/assets/images/Group 11.png" alt="" class="inline-block z-10 mt-1 h-[30px] md:h-[40px]">
+
+                <div class="absolute top-[-10px] right-[-10px]">
+                  <img src="src/assets/images/Ellipse 3.png" alt="" class="inline-block">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- our founder section -->
+  <section class="my-[130px] relative">
+    <img src="src/assets/images/Vector1.png" alt="" class="absolute top-[5%] left-[0%] bottom-0 w-[
+      913.66px] h-[806.28px] ">
+    <div class="container mx-auto px-4">
+      <div class="row">
+        <h2
+          class="text-[#19383B] relative text-[30px] md:text-[50px] leading-[96px] md:leading-[120px] font-serif italic text-center font-semibold">
+          Our <img src="src/assets/images/Vector 1.png" alt=""
+            class="inline-block mr-1 absolute left-[46%] top-[-10px] hidden lg:block">
+
+          Founder
+        </h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
+          <div class="relative w-3/5 mx-auto">
+            <img src="src/assets/images/Rectangle 23.png" alt="" class="w-full h-auto object-cover inline-block">
+            <!-- <div class="absolute bottom-[-30px] right-0 z-0">
+                          <img src="src/assets/images/Ellipse 6.png" alt="" class="inline-block">
+                      </div> -->
+            <!-- <div class="absolute bottom-[-10px] right-5 z-10">
+                          <img src="src/assets/images/Ellipse 7.png" alt="" class="inline-block">
+                      </div> -->
+          </div>
+          <div class="flex flex-col justify-center ">
+            <h2 class="text-[#19383B] text-[35px]    font-serif italic max-w-sm">Cameron Williamson
+            </h2>
+            <p
+              class="text-[#808080] text-[16px] md:text-[20px] leading-[28px] md:leading-[30px] my-1 md:mt-4 max-w-lg text-lg font-semibold">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard Lorem Ipsum is simply dummy text of the printin.</p>
+            <p
+              class="text-[#808080] text-[16px] md:text-[20px] leading-[28px] md:leading-[30px] my-1 md:mt-4 max-w-lg text-lg font-semibold mb-6">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</p>
+            <p
+              class="text-[#808080] text-[16px] md:text-[20px] leading-[28px] md:leading-[30px] my-1 md:mt-4 max-w-lg text-lg font-semibold mb-6">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</p>
+            <p
+              class="text-[#808080] text-[16px] md:text-[20px] leading-[28px] md:leading-[30px] my-1 md:mt-4 max-w-lg text-lg font-semibold mb-6">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="my-[130px] relative">
+    <img src="src/assets/images/Vector4.png" alt="" class="absolute top-[0%] mx-auto right-[0%] bottom-0 w-[
+      953.66px] h-[806.28px] ">
+    <div class="container mx-auto px-4">
+      <div class="row">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
+          <div class="flex flex-col w-4/5 justify-center">
+            <h2 class="text-[#19383B] text-[35px]    font-serif italic max-w-sm">Alex Perry
+            </h2>
+            <p
+              class="text-[#808080] text-[16px] md:text-[20px] leading-[28px] md:leading-[30px] my-1 md:mt-4 max-w-lg text-lg font-semibold">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard Lorem Ipsum is simply dummy text of the printin.</p>
+            <p
+              class="text-[#808080] text-[16px] md:text-[20px] leading-[28px] md:leading-[30px] my-1 md:mt-4 max-w-lg text-lg font-semibold mb-6">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</p>
+            <p
+              class="text-[#808080] text-[16px] md:text-[20px] leading-[28px] md:leading-[30px] my-1 md:mt-4 max-w-lg text-lg font-semibold mb-6">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</p>
+            <p
+              class="text-[#808080] text-[16px] md:text-[20px] leading-[28px] md:leading-[30px] my-1 md:mt-4 max-w-lg text-lg font-semibold mb-6">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</p>
+
+          </div>
+          <div class="relative w-3/5 mx-auto">
+            <img src="src/assets/images/Rectangle 24.png" alt="" class="w-full h-auto object-cover inline-block">
+           
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- our mission -->
+
+  <section class="my-[130px] py-20 relative bg-[#19383B]">
+    
+    <div class="container mx-auto px-4">
+      <div class="row">
+        <h2
+          class="text-white relative text-[30px] md:text-[50px] leading-[96px] md:leading-[120px] font-serif italic text-center font-semibold">
+          Where it <img src="src/assets/images/Vector 1.png" alt=""
+            class="inline-block mr-1 absolute left-[49%] top-[-10px] hidden lg:block">
+
+        All  Began
+        </h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
+          <div class="relative w-[70%] text-center mx-auto">
+            <img src="src/assets/images/Rectangle 49.png" alt="" class="w-full h-auto object-cover  inline-block">
+           
+          </div>
+          <div class="flex flex-col  justify-center">
+            <h2 class="text-white text-[35px]  mt-[30px]  font-serif italic max-w-sm">Our Vision
+            </h2>
+            <p
+              class="text-white text-[16px] brightness-75 md:text-[20px] leading-[28px] md:leading-[30px] my-1 md:mt-4 max-w-lg text-lg font-semibold">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  Lorem Ipsum is simply dummy text of the printin.</p>
+            <p
+              class="text-white text-[16px] brightness-75 md:text-[20px] leading-[28px] md:leading-[30px] my-1 md:mt-4 max-w-lg text-lg font-semibold mb-6">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</p>
+           
+              <h2 class="text-white text-[35px]    font-serif italic max-w-sm">Our Mission
+              </h2>
+              <p
+                class="text-white text-[16px] brightness-75 md:text-[20px] leading-[28px] md:leading-[30px] my-1 md:mt-4 max-w-lg text-lg font-semibold">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard  Lorem Ipsum is simply dummy text of the printin.</p>
+              <p
+                class="text-white text-[16px] brightness-75 md:text-[20px] leading-[28px] md:leading-[30px] my-1 md:mt-4 max-w-lg text-lg font-semibold mb-6">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- People Section -->
+  <section class="my-[190px] relative">
+    <img src="src/assets/images/vc.png" alt="" class="inline-block absolute top-[15%] z-0">
+
+    <div class="container mx-auto px-4">
+      <div class="row">
+        <h2
+          class="text-[#19383B] text-[60px] md:text-[70px] leading-[80px] md:leading-[120px] font-serif italic text-center relative">
+          What’s People
+          <img src="src/assets/images/Vector 1.png" alt=""
+            class="inline-block me-1 absolute left-[60%] max-w-lg  top-2 hidden lg:block">
+          Say
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 z-10">
+          <div class="mt-[100px]">
+
+            <img src="src/assets/images/quote-up.png" alt="" class="">
+            <div class="my-[89px]">
+              <p
+                class="text-[#19383B] text-[16px] md:text-[20px] leading-[30px] md:leading-[30px] mt-4 md:mt-8 max-w-lg text-lg font-semibold mb-10">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                has
+                been the industry's standard </p>
+              <span class="text-[32px] font-serif italic text-[#F4B069] mt-5 block z-10">Esther
+                Howard</span>
+              <span
+                class="text-[#808080] text-[16px] md:text-[20px] leading-[30px] md:leading-[30px] mt-4 md:mt-8 max-w-lg text-lg font-semibold z-10">Customer,
+                Delhi</span>
+              <div class="flex">
+                <div class="flex mt-10 relative me-5 z-10">
+                  <img src="src/assets/images/rounded.png" alt="" class="inline-block ">
+                  <img src="src/assets/images/tir.png" alt="" class="inline-block absolute top-2 left-[10px]">
+                </div>
+                <div class="flex mt-10 relative ms-5 z-10">
+                  <img src="src/assets/images/rounded.png" alt="" class="inline-block ">
+                  <img src="src/assets/images/tir.png" alt=""
+                    class="inline-block absolute top-2 right-[10px] rotate-180">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-center items-center ms-4 pt-4 relative">
+              <img src="src/assets/images/Rectangle 11.png" alt="" class="">
+              <div class="absolute right-[130px]">
+                <img src="src/assets/images/Rectangle 12.png" alt="" class="inline-block">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer Section -->
+
+  <footer class="bg-[#1a3937] text-white py-12 mt-[130px]">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Company Info -->
+        <div>
+          <h2 class="text-2xl font-serif mb-4">Npj Jewellers</h2>
+          <p class="text-white text-[
+            20px] max-w-sm">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+            the industry's standard.
+          </p>
+        </div>
+
+        <!-- Resources -->
+        <div>
+          <h3 class="text-lg font-medium mb-4">Resources</h3>
+          <nav class="flex flex-col space-y-2">
+            <a href="#" class="text-white hover:text-white transition-colors">Home</a>
+            <a href="#" class="text-white hover:text-white transition-colors">About us</a>
+            <a href="#" class="text-white hover:text-white transition-colors">Gallery</a>
+            <a href="#" class="text-white hover:text-white transition-colors">Contact Us</a>
+          </nav>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h3 class="text-lg font-medium mb-4">Contact Us</h3>
+          <div class="space-y-4">
+
+            <!-- Phone -->
+            <div class="flex items-start space-x-3">
+              <svg class="w-5 h-5 mt-0.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <span class="text-white">+91123 456 7890</span>
+            </div>
+
+            <!-- Address -->
+            <div class="flex items-start space-x-3">
+              <svg class="w-5 h-5 mt-0.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <address class="text-white not-italic">
+                24-25-26, Laxmi Enclave opp. Gojera <br>
+                School Chitrakut Society, Katargam <br>
+                Surat, Gujarat 395004 India
+              </address>
+            </div>
+
+            <!-- Working Hours -->
+            <div class="flex items-start space-x-3">
+              <svg class="w-5 h-5 mt-0.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <div class="text-white">
+                Mon - Sun <br>
+                9:45 am - 8:30 pm
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="mt-12 pt-8 border-t border-gray-700 text-center text-white text-[
+              18px]">
+        Copyright © 2023 npj jewellers
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+<script src="src/assets/js/index.js"></script>
+
+</html>

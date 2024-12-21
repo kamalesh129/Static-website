@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Npj Jewellers</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonts awsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- style link -->
+    <link rel="stylesheet" href="src/assets/style/style.css">
+
+    <style>@tailwind base;
+@tailwind components;
+@tailwind utilities;
+</style>
+</head>
+
+<body>
+
+    <!-- Header Component -->
+    <header class="bg-[#19383B] sticky top-0 z-50 py-4 mb-4">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+          
+          <!-- Logo -->
+          <div class="text-white text-[40px] font-serif italic">
+            Npj Jewellers
+          </div>
+    
+          <!-- Navigation -->
+          <nav class="hidden md:block">
+            <ul class="flex space-x-8 menu">
+              <li>
+                <a href="index.html" class="text-white text-[20px]">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white text-[20px]">About Us</a>
+              </li>
+              <li>
+                <a href="product.html" class="text-white text-[20px]">Products</a>
+              </li>
+              <li>
+                <a href="gallery.html" class="text-white text-[20px]">Gallery</a>
+              </li>
+              <li>
+                <a href="contact.html" class="text-white text-[20px]">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+    
+          <!-- Phone Number -->
+          <a href="#"
+            class="hidden md:flex items-center bg-white text-[#19383B] text-[18px] px-4 py-2 rounded-full hover:bg-gray-100 transition-colors">
+            <i class="fa-solid fa-phone-volume w-4 h-4 mr-2"></i>
+            +91 123 456 7890
+          </a>
+    
+          <!-- Hamburger Menu Button -->
+          <button id="menu-btn" class="md:hidden block text-white focus:outline-none">
+            <i class="fas fa-bars text-3xl"></i>
+          </button>
+        </div>
+    
+        <!-- Mobile Menu (Hidden by default) -->
+        <nav id="mobile-menu" class="hidden md:hidden bg-[#19383B]">
+          <ul class="flex flex-col items-center space-y-4 py-4">
+            <li>
+              <a href="index.html" class="text-white text-[20px]">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="text-white text-[20px]">About Us</a>
+            </li>
+            <li>
+              <a href="product.html" class="text-white text-[20px]">Products</a>
+            </li>
+            <li>
+              <a href="gallery.html" class="text-white text-[20px]">Gallery</a>
+            </li>
+            <li>
+              <a href="contact.html" class="text-white text-[20px]">Contact Us</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-[18px]">+91 123 456 7890</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+    <!-- Discover Section -->
+    <section class="my-[120px] relative">
+        <img src="src/assets/images/side-desion.png" alt="" class="absolute top-[40%] w-[
+        813.66px] h-[606.28px] me-4 min-h-[50px]">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
+
+                    <div class="p-4 items-center  sm:mt-[10px] md:mt-[50px]">
+                        <h2
+                            class="text-[#19383B] relative text-[60px] md:text-[90px] leading-[80px] md:leading-[120px] font-serif italic flex">
+                            Disc
+                            <img src="src/assets/images/Vector.png" alt="" class="inline-block me-1 ">
+                            <span class="me-7"> ver </span>
+                            <div class="absolute top-0 right-[80px] md:right-[80px] ps-2">
+                                <img src="src/assets/images/Vector 1.png" alt="" class="inline-block w-[
+                                253px] hidden lg:block">
+                            </div>
+                            Best
+                        </h2>
+                        <h2
+                            class="text-[#19383B] text-[70px] md:text-[100px] leading-[80px] md:leading-[120px] font-serif italic">
+                            Jewellers</h2>
+                        <p
+                            class="text-[#808080] text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 md:mt-8 max-w-lg text-lg font-semibold">
+                            Lorem Ipsum is simply dummy text of the printing<br>
+                            and typesetting industry. Lorem Ipsum has<br>
+                            been the industry's standard.
+                        </p>
+                        <div class="flex mt-4 md:mt-6">
+                            <span class="text-[#19383B] text-[25px] md:text-[35px] font-semibold italic">learn
+                                more</span>
+                            <div class="relative flex ms-4 mt-2">
+                                <img src="src/assets/images/Group 11.png" alt=""
+                                    class="inline-block z-10 mt-1 h-[30px] md:h-[40px]">
+
+                                <div class="absolute top-[-10px] right-[-10px]">
+                                    <img src="src/assets/images/Ellipse 3.png" alt="" class="inline-block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex relative  justify-center items-center">
+                        <div class="px-4">
+                            <img src="src/assets/images/Mask group.png" alt=""
+                                class="w-full max-w-[574.25px] h-auto inline-block">
+                            <div class="absolute bottom-[-50px] md:bottom-[-100px] left-[-50px] md:left-[-100px]">
+                                <img src="src/assets/images/Group 14.png" alt="" class="inline-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="my-[130px] relative">
+        <img src="src/assets/images/desion.png" alt="" class="absolute top-[20%] right-0 w-[
+        813.66px] h-[606.28px] ">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <h2
+                    class="text-[#19383B] text-[60px] md:text-[80px] leading-[80px] md:leading-[120px] font-serif italic text-center">
+                    About
+                    <img src="src/assets/images/Vector 1.png" alt=""
+                        class="inline-block me-1 absolute left-[53%] w-[140px] top-7">
+                    us
+                </h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 ">
+                    <div class="relative">
+                        <img src="src/assets/images/Rectangle 20.png" alt=""
+                            class="w-full max-w-[574.25px] h-auto inline-block">
+                        <div class="absolute bottom-[-30px] right-0 z-0">
+                            <img src="src/assets/images/Ellipse 6.png" alt="" class="inline-block">
+                        </div>
+                        <div class="absolute bottom-[-10px] right-5 z-10">
+                            <img src="src/assets/images/Ellipse 7.png" alt="" class="inline-block">
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h2 class="text-[#19383B] text-[35px]    font-serif italic max-w-sm">Traditon Cared For
+                            Since <span class="text-[#F4B069] text-[35px] inline-block">1999</span></h2>
+                        <p
+                            class="text-[#808080] text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 md:mt-8 max-w-lg text-lg font-semibold">
+                            Lorem Ipsum is simply dummy text of the printing and typese industry. Lorem Ipsum has been
+                            the industry's standard Lorem Ipsum is simply dummy text of the printin.</p>
+                        <p
+                            class="text-[#808080] text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 md:mt-8 max-w-lg text-lg font-semibold mb-6">
+                            Lorem Ipsum is simply dummy text of the printing and typesett industry. Lorem Ipsum has been
+                            the</p>
+                        <div class="flex mt-4 md:mt-6 ">
+                            <span class="text-[#19383B] text-[25px] md:text-[35px] font-semibold italic">learn
+                                more</span>
+                            <div class="relative flex ms-4 mt-2">
+                                <img src="src/assets/images/Group 11.png" alt=""
+                                    class="inline-block z-10 mt-1 h-[30px] md:h-[40px]">
+
+                                <div class="absolute top-[-10px] right-[-10px]">
+                                    <img src="src/assets/images/Ellipse 3.png" alt="" class="inline-block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Section -->
+    <section class="my-[130px] cl">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <h2
+                    class="text-[#19383B] relative text-[30px] md:text-[50px] leading-[96px] md:leading-[120px] font-serif italic text-center font-semibold">
+                    Discover Jewellery <img src="src/assets/images/Vector 1.png" alt=""
+                    class="inline-block mr-1 absolute left-[58%] top-[-10px] hidden lg:block">
+                
+                 Collection
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="bg-[#FDF3E9] w-[460px] h-[598px] rounded-full collection   hover:bg-[#19383B]  relative mt-2 mx-auto">
+                        <div class="absolute w-[400px] z-10 top-[5%] left-[49%] translate-x-[-50%]">
+                            <img src="src/assets/images/Rectangle 33.png" alt="" class="inline-block text-[#F4B069] ">
+                        </div>
+                        <div class="absolute w-[400px] z-10 top-[20%] left-[55%] translate-x-[-50%]">
+                            <img src="src/assets/images/ring.png" alt="" class="inline-block">
+                        </div>
+                        <h2
+                            class="text-[#19383B] absolute text-[28px] md:text-[30px]  leading-[50px] md:leading-[80px] font-serif italic text-center bottom-[20%] left-[28%]">
+                            Diamond Ring</h2>
+                        <div class="absolute top-[50%] left-[-30px] bg-[#F4B069] w-[66.41px] h-[66.41px] rounded-full">
+                            <img src="src/assets/images/Group 12.png" alt=""
+                                class="inline-block top-[20%] left-[25%] absolute">
+                        </div>
+                    </div>
+                    <div class="bg-[#FDF3E9] w-[460px] h-[598px] rounded-full collection   hover:bg-[#19383B]  relative mt-2 mx-auto">
+                        <div class="absolute w-[400px] z-10 top-[5%] left-[49%] translate-x-[-50%]">
+                            <img src="src/assets/images/Union.png" alt="" class="inline-block  ">
+                        </div>
+                        <div class="absolute w-[400px] z-10 top-[20%] left-[55%] translate-x-[-50%]">
+                            <img src="src/assets/images/ring.png" alt="" class="inline-block">
+                        </div>
+                        <h2
+                            class="text-[#19383B] absolute text-[28px] md:text-[30px] leading-[50px] md:leading-[80px] font-serif italic text-center bottom-[20%] left-[25%]">
+                            Diamond Earrings </h2>
+
+                    </div>
+                    <div class="bg-[#FDF3E9] w-[460px] h-[598px] rounded-full collection   hover:bg-[#19383B] relative mt-2 mx-auto">
+                        <div class="absolute w-[400px] z-10 top-[5%] left-[49%] translate-x-[-50%]">
+                            <img src="src/assets/images/Rectangle 33.png" alt="" class="inline-block text-[#F4B069] ">
+                        </div>
+                        <div class="absolute w-[400px] z-10 top-[20%] left-[55%] translate-x-[-50%]">
+                            <img src="src/assets/images/neck.png" alt="" class="inline-block">
+                        </div>
+                        <h2
+                            class="text-[#19383B] absolute text-[28px] md:text-[30px] leading-[50px] md:leading-[80px] font-serif italic text-center bottom-[20%] left-[28%]">
+                            Gold necklaces</h2>
+                        <div class="absolute top-[50%] right-[-30px] bg-[#F4B069] w-[66.41px] h-[66.41px] rounded-full">
+                            <img src="src/assets/images/Group 12.png" alt=""
+                                class="inline-block top-[20%]  absolute rotate-180 right-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- New Collection Section -->
+    <section class="my-[130px] bg-[#19383B] py-[140px] relative">
+        <div class="container mx-auto px-4">
+            <div class="row relative mb-4">
+                <h2
+                    class="text-[#fff] text-[80px] md:text-[60px] leading-[96px] md:leading-[120px] font-serif italic  font-semibold">
+                    New
+                    <img src="src/assets/images/Vector 1.png" alt=""
+                        class="inline-block me-1 absolute  w-[250px] top-0 absolute left-[10%]  hidden lg:block"> Arrival
+                </h2>
+                <div class="absolute top-[50%] right-[150px] bg-[#F4B069] w-[66.41px] h-[66.41px] rounded-full">
+                    <img src="src/assets/images/Group 12.png" alt=""
+                        class="inline-block top-[20%]  absolute rotate-180 right-5">
+                </div>
+                <div class="absolute top-[50%] right-[300px] bg-[#F4B069] w-[66.41px] h-[66.41px] rounded-full">
+                    <img src="src/assets/images/Group 12.png" alt=""
+                        class="inline-block top-[20%]  absolute  right-[-20px]">
+                </div>
+                <p
+                    class="text-[#fff] text-[25px] md:text-[15px] leading-[30px] md:leading-[30px]  mt-4 md:mt-8 max-w-lg text-lg font-awesome">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the.
+                </p>
+
+            </div>
+            <div class="row mg-4">
+                <div class="grid grid-cols-1 md:grid-cols-3">
+
+                    <div class="mx-auto">
+                        <div class="bg-white hover:bg-[#19383B] w-[428px] h-[452px] rounded-t-full relative">
+                            <img src="src/assets/images/ring.png" alt="" class="absolute right-[15%] bottom-0">
+                        </div>
+                        <h2
+                            class="text-[#fff] text-[28px] md:text-[32px] leading-[50px] md:leading-[80px] font-serif italic mx-10">
+                            Pink Diamond Ring</h2>
+                    </div>
+                    <div class="mx-auto">
+                        <div class=" hover:bg-[#19383B] w-[428px] bg-white h-[452px] rounded-t-full relative">
+                            <img src="src/assets/images/ring.png" alt="" class="absolute right-[15%] bottom-0">
+                        </div>
+                        <h2
+                            class="text-[#fff] text-[28px] md:text-[32px] leading-[50px] md:leading-[80px] font-serif italic mx-10">
+                            Pink Diamond Ring</h2>
+                    </div>
+                    <div class="mx-auto">
+                        <div class="bg-white hover:bg-[#19383B] w-[428px] h-[452px] rounded-t-full relative">
+                            <img src="src/assets/images/ring.png" alt="" class="absolute right-[15%] bottom-0">
+                        </div>
+                        <h2
+                            class="text-[#fff] text-[28px] md:text-[32px] leading-[50px] md:leading-[80px] font-serif italic mx-10">
+                            Pink Diamond Ring</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- People Section -->
+    <section class="my-[190px] relative">
+        <img src="src/assets/images/vc.png" alt="" class="inline-block absolute top-[15%] z-0">
+
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <h2
+                    class="text-[#19383B] text-[60px] md:text-[70px] leading-[80px] md:leading-[120px] font-serif italic text-center relative">
+                    What’s People
+                    <img src="src/assets/images/Vector 1.png" alt=""
+                        class="inline-block me-1 absolute left-[60%] max-w-lg  top-2 hidden lg:block">
+                    Say
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 z-10">
+                    <div class="mt-[100px]">
+
+                        <img src="src/assets/images/quote-up.png" alt="" class="">
+                        <div class="my-[89px]">
+                            <p
+                                class="text-[#19383B] text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 md:mt-8 max-w-lg text-lg font-semibold mb-10">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been the industry's standard </p>
+                            <span class="text-[32px] font-serif italic text-[#F4B069] mt-5 block z-10">Esther
+                                Howard</span>
+                            <span
+                                class="text-[#808080] text-[16px] md:text-[20px] leading-[24px] md:leading-[30px] mt-4 md:mt-8 max-w-lg text-lg font-semibold z-10">Customer,
+                                Delhi</span>
+                            <div class="flex">
+                                <div class="flex mt-10 relative me-5 z-10">
+                                    <img src="src/assets/images/rounded.png" alt="" class="inline-block ">
+                                    <img src="src/assets/images/tir.png" alt=""
+                                        class="inline-block absolute top-2 left-[10px]">
+                                </div>
+                                <div class="flex mt-10 relative ms-5 z-10">
+                                    <img src="src/assets/images/rounded.png" alt="" class="inline-block ">
+                                    <img src="src/assets/images/tir.png" alt=""
+                                        class="inline-block absolute top-2 right-[10px] rotate-180">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-center items-center ms-4 pt-4 relative">
+                            <img src="src/assets/images/Rectangle 11.png" alt="" class="">
+                            <div class="absolute right-[130px]">
+                                <img src="src/assets/images/Rectangle 12.png" alt="" class="inline-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Product Section -->
+    <section class="my-[130px] bg-[#19383B] py-[100px]">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <h2
+                    class="text-[#FFF] text-[60px] md:text-[70px] leading-[80px] md:leading-[120px] font-serif italic text-center relative">
+                    Our
+                    <img src="src/assets/images/Vector 1.png" alt=""
+                        class="inline-block me-1 absolute left-[45%] max-w-lg  top-2 hidden lg:block">
+                    Products
+                </h2>
+                <p
+                    class="text-[#fff] text-[14px] text-center mx-auto pt-4 sm:text-[16px] md:text-[20px] leading-[20px] sm:leading-[24px] md:leading-[30px] font-semibold mb-6 max-w-lg mt-4">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the industry's standard.
+                </p>
+                <div class="mb-16 flex flex-wrap justify-center gap-4">
+                    <button class="rounded-full bg-[#F4B069] px-8 py-2 text-white font-serif italic">All</button>
+                    <button
+                        class="rounded-full border border-[#F4B069] px-8 py-2 text-[#FFF] font-serif italic hover:bg-[#F4B069] hover:text-teal-900">
+                        Rings
+                    </button>
+                    <button
+                        class="rounded-full border border-[#F4B069] px-8 py-2 text-[#FFF] font-serif italic  hover:bg-[#F4B069] hover:text-teal-900">
+                        Necklaces
+                    </button>
+                    <button
+                        class="rounded-full border border-[#F4B069] px-8 py-2 text-[#FFF] font-serif italic  hover:bg-[#F4B069] hover:text-teal-900">
+                        Earrings
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="grid grid-cols-1 md:grid-cols-3">
+
+                    <div class="mx-auto">
+                        <div class="bg-white w-[428px] h-[452px] rounded-t-full relative">
+                            <img src="src/assets/images/ring.png" alt="" class="absolute right-[15%] bottom-0">
+                        </div>
+                        <h2
+                            class="text-[#fff] text-[28px] md:text-[32px] leading-[50px] md:leading-[80px] font-serif italic mx-10">
+                            Pink Diamond Ring</h2>
+                    </div>
+                    <div class="mx-auto">
+                        <div class=" w-[428px] h-[452px] rounded-t-full relative">
+                            <img src="src/assets/images/ring.png" alt="" class="absolute right-[15%] bottom-0">
+                        </div>
+                        <h2
+                            class="text-[#fff] text-[28px] md:text-[32px] leading-[50px] md:leading-[80px] font-serif italic mx-10">
+                            Pink Diamond Ring</h2>
+                    </div>
+                    <div class="mx-auto">
+                        <div class="bg-white w-[428px] h-[452px] rounded-t-full relative">
+                            <img src="src/assets/images/ring.png" alt="" class="absolute right-[15%] bottom-0">
+                        </div>
+                        <h2
+                            class="text-[#fff] text-[28px] md:text-[32px] leading-[50px] md:leading-[80px] font-serif italic mx-10">
+                            Pink Diamond Ring</h2>
+                    </div>
+
+                </div>
+                <div class="flex mt-5 md:mt-6 items-center justify-center">
+                    <span class="text-[#FFF] text-[25px] md:text-[35px] font-semibold italic">View All
+                    </span>
+                    <div class="relative flex ms-4 mt-2">
+                        <img src="src/assets/images/Group 55.png" alt=""
+                            class="inline-block z-10 mt-1 h-[30px] md:h-[40px]">
+
+                        <div class="absolute top-[-10px] right-[-10px]">
+                            <img src="src/assets/images/5.png" alt="" class="inline-block">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- View our Gallery -->
+    <section class="my-[130px]">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <h2
+                    class="text-[#19383B] text-[60px] md:text-[70px] leading-[80px] md:leading-[120px] font-serif italic text-center relative">
+                    View our
+                    
+                    Gallery
+                </h2>
+            </div>
+            <div class="row">
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery Section -->
+  <section class="py-16 px-4 ">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-[70%]  mx-auto">
+      <div>
+        <img src="src/assets/images/Rectangle51.png" alt="Gallery 1" class="w-full h-auto rounded-lg shadow-md mb-4">
+        <img src="src/assets/images/Rectangle52.png" alt="Gallery 2" class="w-full h-auto rounded-lg shadow-md mb-4">
+        <img src="src/assets/images/Rectangle53.png" alt="Gallery 3" class="w-full h-auto rounded-lg shadow-md">
+      </div>
+      <div>
+        <img src="src/assets/images/Rectangle54.png" alt="Gallery 4" class="w-full h-auto rounded-lg shadow-md mb-4">
+        <img src="src/assets/images/Rectangle55.png" alt="Gallery 5" class="w-full h-auto rounded-lg shadow-md mb-4">
+        <img src="src/assets/images/Rectangle56.png" alt="Gallery 6" class="w-full h-auto rounded-lg shadow-md">
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer Section -->
+
+    <footer class="bg-[#1a3937] text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Company Info -->
+                <div>
+                    <h2 class="text-2xl font-serif mb-4">Npj Jewellers</h2>
+                    <p class="text-white text-[
+          20px] max-w-sm">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard.
+                    </p>
+                </div>
+
+                <!-- Resources -->
+                <div>
+                    <h3 class="text-lg font-medium mb-4">Resources</h3>
+                    <nav class="flex flex-col space-y-2">
+                        <a href="#" class="text-white hover:text-white transition-colors">Home</a>
+                        <a href="#" class="text-white hover:text-white transition-colors">About us</a>
+                        <a href="#" class="text-white hover:text-white transition-colors">Gallery</a>
+                        <a href="#" class="text-white hover:text-white transition-colors">Contact Us</a>
+                    </nav>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-lg font-medium mb-4">Contact Us</h3>
+                    <div class="space-y-4">
+
+                        <!-- Phone -->
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-5 h-5 mt-0.5 text-white" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                            <span class="text-white">+91123 456 7890</span>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-5 h-5 mt-0.5 text-white" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <address class="text-white not-italic">
+                                24-25-26, Laxmi Enclave opp. Gojera <br>
+                                School Chitrakut Society, Katargam <br>
+                                Surat, Gujarat 395004 India
+                            </address>
+                        </div>
+
+                        <!-- Working Hours -->
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-5 h-5 mt-0.5 text-white" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <div class="text-white">
+                                Mon - Sun <br>
+                                9:45 am - 8:30 pm
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="mt-12 pt-8 border-t border-gray-700 text-center text-white text-[
+18px]">
+                Copyright © 2023 npj jewellers
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+<script src="src/assets/js/index.js"></script>
+
+
+
+
+</html>
